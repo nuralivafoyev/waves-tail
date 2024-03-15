@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- box icons -->
+    <link rel="icon" href="./assets/icons/logo.svg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <header class="fixed top-0 w-full flex items-center justify-center border-b md:border-0 bg-white md:shadow-md z-50 h-24">
+        <div class="container px-10">
+            <nav class="flex justify-between items-center">
+                <a href="#">
+                    <img src="./assets/icons/logo.svg" alt="site-logo">
+                </a>
+                <ul class="md:flex gap-x-[60px] hidden">
+                    <li><a class="text-[#8447E9] font-semibold hover:text-[#8447E9] duration-200" href="#">Home</a></li>
+                    <li><a class="text-[#0F0F0F] font-semibold hover:text-[#8447E9] duration-200" href="#">About us</a></li>
+                    <li><a class="text-[#0F0F0F] font-semibold hover:text-[#8447E9] duration-200" href="#">Blog</a></li>
+                    <li><a class="text-[#0F0F0F] font-semibold hover:text-[#8447E9] duration-200" href="#">Service</a></li>
+                </ul>
+                <button class="md:flex p-2 rounded-0 text-white hidden justify-center items-center bg-fuchsia-700">
+                    <span class="font-semibold">Contact us</span>
+                    <i class='bx bx-right-arrow-alt translate-y-[1px]'></i>
+                </button>
+                <i class="bx md:hidden bx-menu text-[35px] text-[#8447E9]"></i>
+            </nav>
+        </div>
+    </header>
+
+    <!-- app bar start -->
+    <div class="fixed md:hidden bottom-0 w-full bg-[#E1DBF63e] backdrop-blur-[15px] p-1 border-t-[1px] border-t-[#8447E9]">
+        <ul class="flex  justify-around">
+            <li><a href="#"><i class='text-[35px] text-[#8447E9] bx bx-book-bookmark'></i></a></li>
+            <li><a href="#"><i class='text-[35px] text-[#8447E9] bx bx-search'></i></a></li>
+            <li><a href="#"><i class='text-[35px] text-[#8447E9] bx bx-shopping-bag'></i></a></li>
+            <li><a href="#"><i class='text-[35px] text-[#8447E9] bx bx-user'></i></a></li>
+        </ul>
+    </div>
+    <!-- app bar end -->
+
+    <main class="pt-24">
+        <section id="intro" class="pt-[150px]">
+            <div class="container">
+                <h1 class="font-semibold text-[#0f0f0f] text-[62px] text-center">Global Brandmakers <br> making <span class="text-[#8447E9] font-semibold">Waves</span></h1>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
